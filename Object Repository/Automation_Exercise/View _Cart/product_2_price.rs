@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lbl_Account Deleted</name>
+   <name>product_2_price</name>
    <tag></tag>
-   <elementGuidId>bba5d36b-c207-4f80-97df-bfa67f811b18</elementGuidId>
+   <elementGuidId>08611bcf-aff5-4b8e-a230-7894269df84d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::b[1]</value>
+         <value>//tr[@id='product-2']/td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>b</value>
+         <value>#product-2 > td.cart_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Account Deleted!&quot;i</value>
+         <value>internal:role=cell[name=&quot;Rs. 400&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,93 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>b</value>
-      <webElementGuid>492cc280-dc16-4574-ba35-adb523ccf6db</webElementGuid>
+      <value>td</value>
+      <webElementGuid>f4632230-a678-40e6-8064-cd2ba412b36d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart_price</value>
+      <webElementGuid>e3f0b644-e49e-4c90-b07d-f5102923242e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Account Deleted!</value>
-      <webElementGuid>4b35a367-8c55-4f34-9d43-c8b024644436</webElementGuid>
+      <value>
+								Rs. 400
+							</value>
+      <webElementGuid>e4dd4a1f-dabc-42d8-9bf6-876dc4a08a6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-sm-offset-1&quot;]/h2[@class=&quot;title text-center&quot;]/b[1]</value>
-      <webElementGuid>dcf01d8d-0186-45b2-8e61-380adf822499</webElementGuid>
+      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_price&quot;]</value>
+      <webElementGuid>f7a6e82a-6745-41c5-97d7-2c138b933d04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/h2/b</value>
-      <webElementGuid>55d173b1-37b1-4890-a52a-349bf6689b8b</webElementGuid>
+      <value>//tr[@id='product-2']/td[3]</value>
+      <webElementGuid>5ae2fcf8-ce1b-4c10-bc1e-1518fff71312</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::b[1]</value>
-      <webElementGuid>b1624dcb-c3c3-4aef-8bd1-6ad009af3379</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/following::td[1]</value>
+      <webElementGuid>847fe6d3-fd32-4ca1-bd4c-6ab9ef4b2e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::b[1]</value>
-      <webElementGuid>33930c61-7249-4e13-9d83-099cabc465d5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[7]</value>
+      <webElementGuid>e6319af8-e7a5-4231-9f82-6f5937adeeed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::b[1]</value>
-      <webElementGuid>5d8d6a2a-372b-4a15-9d3a-e7708cda5957</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[4]</value>
+      <webElementGuid>216eaab9-a62c-40ab-9421-83f616670210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have been successfully subscribed!'])[1]/preceding::b[1]</value>
-      <webElementGuid>6066a1c7-f739-4619-9e3d-179e65bc8836</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Account Deleted!']/parent::*</value>
-      <webElementGuid>a7f6006d-ed92-4a7f-8199-2f4fb39f1edd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::td[4]</value>
+      <webElementGuid>b5b4feb3-fa92-4fc5-9595-e3262d85844c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//b</value>
-      <webElementGuid>504c2383-73de-4c19-ac1f-138115322707</webElementGuid>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>2190c47f-ce2c-4481-851a-06fe6f10f94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//b[(text() = 'Account Deleted!' or . = 'Account Deleted!')]</value>
-      <webElementGuid>39db01c9-e011-4b8a-b90b-421fc2c7b062</webElementGuid>
+      <value>//td[(text() = '
+								Rs. 400
+							' or . = '
+								Rs. 400
+							')]</value>
+      <webElementGuid>24fbd905-ebba-4a67-a476-55a6f239cfd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Delete Account</name>
+   <name>button_Cart</name>
    <tag></tag>
-   <elementGuidId>4338ef23-faff-4f84-af0a-f32399d0a434</elementGuidId>
+   <elementGuidId>25120abf-f6bb-48f6-8adb-bc369d6a3a03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[5]/a</value>
+         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(5) > a</value>
+         <value>li:nth-of-type(3) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Delete Account&quot;i]</value>
+         <value>internal:role=link[name=&quot; Cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>0ddd5ac2-de93-40f9-ab0d-dd81a39e379a</webElementGuid>
+      <webElementGuid>d35a1e8c-0b1c-4f92-9cd1-18cf4cf60ca0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/delete_account</value>
-      <webElementGuid>3c42e921-184e-4d8c-b50b-994d8d867dbb</webElementGuid>
+      <value>/view_cart</value>
+      <webElementGuid>78878501-6f96-46e4-b4b8-5b4946fc0963</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Delete Account</value>
-      <webElementGuid>8689a52f-adac-4008-b406-9b067ab47515</webElementGuid>
+      <value> Cart</value>
+      <webElementGuid>9d86dbac-929f-45d1-aadd-0d310ea57792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[5]/a[1]</value>
-      <webElementGuid>8fae7841-4471-4b07-9edb-eae297973e18</webElementGuid>
+      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[3]/a[1]</value>
+      <webElementGuid>b637743b-8d3f-4320-a3eb-64ba33cf18a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[5]/a</value>
-      <webElementGuid>2d267b15-9314-48d8-b1ea-552b2a99529f</webElementGuid>
+      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[3]/a</value>
+      <webElementGuid>736be4a2-d23a-4a5b-b47e-4e2102d82942</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Delete Account')]</value>
-      <webElementGuid>37473cb3-145b-4fbc-8aaf-ace8d71f0b1b</webElementGuid>
+      <value>//a[contains(text(),'Cart')]</value>
+      <webElementGuid>49fd8b5c-2f86-4218-9ab6-9eb6130e5864</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[1]</value>
-      <webElementGuid>836251a6-17ee-4bf5-9ffc-e078d8d40423</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::a[1]</value>
+      <webElementGuid>9fc3036d-e016-442f-a4b5-9eb66399ba5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[2]</value>
-      <webElementGuid>793e432d-bf28-43fc-8499-e04e9bc9dc36</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signup / Login'])[1]/preceding::a[1]</value>
+      <webElementGuid>f024bc90-0a3b-4d5e-a130-ba20dfe9493f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Cases'])[1]/preceding::a[1]</value>
-      <webElementGuid>09378177-1bff-4bce-87d0-605c5309d705</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Cases'])[1]/preceding::a[2]</value>
+      <webElementGuid>93b58489-afb8-44f0-a96c-fc409da61558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='API Testing'])[1]/preceding::a[2]</value>
-      <webElementGuid>28a04cf7-8360-43fa-bd04-caed47405b97</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Delete Account']/parent::*</value>
-      <webElementGuid>8d517ddb-1837-495a-ad04-fb0013e37ddd</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Cart']/parent::*</value>
+      <webElementGuid>af4b9fd5-28de-4638-a774-aef64d1e72eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/delete_account')]</value>
-      <webElementGuid>6afb42ba-bbc1-4a26-b5f2-f6733b0b6935</webElementGuid>
+      <value>//a[contains(@href, '/view_cart')]</value>
+      <webElementGuid>9d0be266-0139-41a6-9331-41c41a60de65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a</value>
-      <webElementGuid>d3369311-b2da-4e9c-b44e-a496e79b1b0f</webElementGuid>
+      <value>//li[3]/a</value>
+      <webElementGuid>e036b8d5-f042-43c5-8848-5714d9f10bb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/delete_account' and (text() = ' Delete Account' or . = ' Delete Account')]</value>
-      <webElementGuid>8f1f16a0-fc4e-408a-9068-62ebf0893025</webElementGuid>
+      <value>//a[@href = '/view_cart' and (text() = ' Cart' or . = ' Cart')]</value>
+      <webElementGuid>1c85ba7b-2dd8-4433-bd6a-5dfaf95e2fb5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

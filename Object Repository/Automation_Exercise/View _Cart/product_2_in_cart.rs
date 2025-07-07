@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Logged in as Ak Test</name>
+   <name>product_2_in_cart</name>
    <tag></tag>
-   <elementGuidId>2c298959-a626-4f29-b196-df5cd740d824</elementGuidId>
+   <elementGuidId>d107dd26-51aa-4b81-8785-d582ea2d88de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[1]</value>
+         <value>//tr[@id='product-2']/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(10) > a</value>
+         <value>#product-2 > td.cart_description</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Logged in as Ak Test&quot;i</value>
+         <value>internal:role=cell[name=&quot;Men Tshirt Men > Tshirts&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,88 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>8eadabc5-0234-4d3d-8a66-b27f5e817a56</webElementGuid>
+      <value>td</value>
+      <webElementGuid>8ccdce79-e84b-4666-9827-debaf38ee6ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart_description</value>
+      <webElementGuid>466c66c1-37bf-4e54-8f81-6c3937f372d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Logged in as Ak Test </value>
-      <webElementGuid>ee6a8209-4e30-4fca-a545-3980a8038c38</webElementGuid>
+      <value>
+								Men Tshirt
+								Men > Tshirts
+							</value>
+      <webElementGuid>41912414-f86f-47a9-b4b3-51ca4cf415f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[10]/a[1]</value>
-      <webElementGuid>328bfcab-52a3-434d-b35a-60e70dfa9697</webElementGuid>
+      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_description&quot;]</value>
+      <webElementGuid>47178dfa-69fc-464a-a85c-0ad42dfc087d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[10]/a</value>
-      <webElementGuid>cc07de2c-8e4a-4d83-ad21-856f7e4cd602</webElementGuid>
+      <value>//tr[@id='product-2']/td[2]</value>
+      <webElementGuid>23eb9716-b9e0-44ce-b8f0-ab02ce97ead3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[1]</value>
-      <webElementGuid>7249b25a-fbc4-4cb5-84d4-06982067fb3e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[6]</value>
+      <webElementGuid>75fc4960-72d8-4660-bac3-3e9ee568ecd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::a[2]</value>
-      <webElementGuid>9197cc8d-feab-4af2-94a3-4a759f17929a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[9]</value>
+      <webElementGuid>dab20958-a8c7-4ded-a25e-d3942f0ca765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Logged in as']/parent::*</value>
-      <webElementGuid>b71d7f5b-99d0-403b-897f-b296ff5956ef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[5]</value>
+      <webElementGuid>6d2af95a-52da-4089-ae4b-1eaed97da29e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[10]/a</value>
-      <webElementGuid>e237d7cf-284a-4223-8d21-0df15bd5a33e</webElementGuid>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>500b861b-957a-448b-8320-f259583bab73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = ' Logged in as Ak Test ' or . = ' Logged in as Ak Test ')]</value>
-      <webElementGuid>f4e5208d-2384-41a2-825a-d6a0e840d7cf</webElementGuid>
+      <value>//td[(text() = '
+								Men Tshirt
+								Men > Tshirts
+							' or . = '
+								Men Tshirt
+								Men > Tshirts
+							')]</value>
+      <webElementGuid>0248cfe6-0552-4151-8bdc-e8c274af9e6d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

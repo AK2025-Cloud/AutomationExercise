@@ -30,10 +30,10 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.maximizeWindow()
 
 //3 Verify Home Page 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4 Click on 'Signup/ Login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Signup Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Signup Login'))
 
 
 //5. Verify 'Login to your account' is visible
@@ -53,7 +53,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise
 
 
 //9. Click 'Delete Account' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Delete Account'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Delete Account'))
 
 //10. Verify that 'ACCOUNT DELETED!' is visible
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Delete_Account_page/lbl_Account Deleted'))

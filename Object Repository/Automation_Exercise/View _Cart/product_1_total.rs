@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Products</name>
+   <name>product_1_total</name>
    <tag></tag>
-   <elementGuidId>6bfd490f-4742-450f-91d5-816a44d27811</elementGuidId>
+   <elementGuidId>173bfadb-8d9c-4100-a1dd-2bc48cfbd0db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
+         <value>//tr[@id='product-1']/td[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(2) > a</value>
+         <value>td.cart_total</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Products&quot;i]</value>
+         <value>internal:role=cell[name=&quot;Rs. 500&quot;i] >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,87 +28,93 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>8cadd44e-8b6c-49bb-a52b-b9a85df4b105</webElementGuid>
+      <value>td</value>
+      <webElementGuid>62376549-cc7c-464f-aced-b69ee047afae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/products</value>
-      <webElementGuid>4a550146-5ba5-49a0-b223-4ee1dafaff2a</webElementGuid>
+      <value>cart_total</value>
+      <webElementGuid>a4c6f61f-9498-4984-9fb7-a3906b897207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Products</value>
-      <webElementGuid>5da8fb90-0083-4f97-90f3-e96db1b7238b</webElementGuid>
+      <value>
+								Rs. 500
+							</value>
+      <webElementGuid>c77219e6-89fb-4a2c-9a72-ad16d1fbab52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[2]/a[1]</value>
-      <webElementGuid>00ac7493-2ff2-49b5-89d9-c371b0f3e226</webElementGuid>
+      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_total&quot;]</value>
+      <webElementGuid>72f4ea68-95cf-46ca-b495-3c6689fef224</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[2]/a</value>
-      <webElementGuid>e9bcc0d8-6a03-4371-bc26-b695753e3056</webElementGuid>
+      <value>//tr[@id='product-1']/td[5]</value>
+      <webElementGuid>90c63273-60fa-4872-87b4-c28e48deb468</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1]</value>
-      <webElementGuid>3cbfbff5-e659-40f6-8e75-a407e8312924</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[3]</value>
+      <webElementGuid>9987ec63-50b7-4833-81c1-f581e430600a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::a[1]</value>
-      <webElementGuid>d80ca3da-4c18-453c-9585-f739fa1a33fe</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[6]</value>
+      <webElementGuid>2d4bff4c-27ef-4de3-8139-fef82bd02d6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
-      <webElementGuid>a6d22658-fcaa-4fdd-ad7f-24584fc08444</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/preceding::td[3]</value>
+      <webElementGuid>f7c74940-e040-412d-a872-d30ea45e6df8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/products')]</value>
-      <webElementGuid>7282161a-fd42-430e-87b2-e638d82a094e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[8]</value>
+      <webElementGuid>2298ac3c-f761-4c20-a84e-6c3b279b0a15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>83d0789e-e16a-4835-a46f-8f08281af7ee</webElementGuid>
+      <value>//tbody/tr/td[5]</value>
+      <webElementGuid>230dc57f-ad2d-4789-af4a-87edad647b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/products' and (text() = ' Products' or . = ' Products')]</value>
-      <webElementGuid>1425556d-db60-4285-a732-f8ac6076c673</webElementGuid>
+      <value>//td[(text() = '
+								Rs. 500
+							' or . = '
+								Rs. 500
+							')]</value>
+      <webElementGuid>e1818ce3-46de-4a35-bd1f-395c28ad796a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

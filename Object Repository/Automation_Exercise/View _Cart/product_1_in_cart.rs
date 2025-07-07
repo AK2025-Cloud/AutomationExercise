@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Logged in as Ak Test</name>
+   <name>product_1_in_cart</name>
    <tag></tag>
-   <elementGuidId>2c298959-a626-4f29-b196-df5cd740d824</elementGuidId>
+   <elementGuidId>a226dc52-70cb-4c3b-9543-9ab0e377346b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[1]</value>
+         <value>//tr[@id='product-1']/td[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(10) > a</value>
+         <value>td.cart_description</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Logged in as Ak Test&quot;i</value>
+         <value>internal:role=cell[name=&quot;Blue Top Women > Tops&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,88 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>8eadabc5-0234-4d3d-8a66-b27f5e817a56</webElementGuid>
+      <value>td</value>
+      <webElementGuid>6286fa8b-f692-427a-88b1-6bdf311029bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart_description</value>
+      <webElementGuid>f07f6265-8509-49d2-a6dd-e5e95ee34a38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Logged in as Ak Test </value>
-      <webElementGuid>ee6a8209-4e30-4fca-a545-3980a8038c38</webElementGuid>
+      <value>
+								Blue Top
+								Women > Tops
+							</value>
+      <webElementGuid>0910d5e5-df06-457f-99c7-7e64d33d5913</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[10]/a[1]</value>
-      <webElementGuid>328bfcab-52a3-434d-b35a-60e70dfa9697</webElementGuid>
+      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_description&quot;]</value>
+      <webElementGuid>42258a30-4406-4432-87c0-bebbd28d8bc5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[10]/a</value>
-      <webElementGuid>cc07de2c-8e4a-4d83-ad21-856f7e4cd602</webElementGuid>
+      <value>//tr[@id='product-1']/td[2]</value>
+      <webElementGuid>07ad0adc-576c-4c63-a6a3-2c4f0e3c17c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::a[1]</value>
-      <webElementGuid>7249b25a-fbc4-4cb5-84d4-06982067fb3e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[3]</value>
+      <webElementGuid>4bc2719a-51e5-4b38-a501-86710cee0255</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::a[2]</value>
-      <webElementGuid>9197cc8d-feab-4af2-94a3-4a759f17929a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::td[4]</value>
+      <webElementGuid>d88e20a7-f5f2-4db6-bb90-d540c004643d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Logged in as']/parent::*</value>
-      <webElementGuid>b71d7f5b-99d0-403b-897f-b296ff5956ef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/preceding::td[6]</value>
+      <webElementGuid>31caffb8-35d6-4f6c-87b9-c5a44bdfbac9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[10]/a</value>
-      <webElementGuid>e237d7cf-284a-4223-8d21-0df15bd5a33e</webElementGuid>
+      <value>//tbody/tr/td[2]</value>
+      <webElementGuid>0fbc6a64-5b71-4f1a-a173-28a9af1758f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[(text() = ' Logged in as Ak Test ' or . = ' Logged in as Ak Test ')]</value>
-      <webElementGuid>f4e5208d-2384-41a2-825a-d6a0e840d7cf</webElementGuid>
+      <value>//td[(text() = '
+								Blue Top
+								Women > Tops
+							' or . = '
+								Blue Top
+								Women > Tops
+							')]</value>
+      <webElementGuid>2343c6d4-eebb-4a76-a896-f26a491d9365</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

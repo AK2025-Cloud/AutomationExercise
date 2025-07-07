@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Signup Login</name>
+   <name>button_Signup Login</name>
    <tag></tag>
    <elementGuidId>64621800-80e8-4c30-abf9-3f61dcf1b5d0</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[4]/a[1][count(. | //*[@href = '/login' and (text() = ' Signup / Login' or . = ' Signup / Login')]) = count(//*[@href = '/login' and (text() = ' Signup / Login' or . = ' Signup / Login')])]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[4]/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header&quot;)/div[@class=&quot;header-middle&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;shop-menu pull-right&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[4]/a[1][count(. | //*[@href = '/login' and (text() = ' Signup / Login' or . = ' Signup / Login')]) = count(//*[@href = '/login' and (text() = ' Signup / Login' or . = ' Signup / Login')])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>li:nth-of-type(4) > a</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

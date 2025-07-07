@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Home</name>
+   <name>button_Home</name>
    <tag></tag>
    <elementGuidId>bc1edd8e-19b2-4e19-95d6-aab27cd89e6a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li/a</value>
+         <value>//a[contains(text(),'Home')]</value>
       </entry>
       <entry>
          <key>CSS</key>

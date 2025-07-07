@@ -27,10 +27,10 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.maximizeWindow()
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4. Click on 'Contact Us' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Contact us'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Contact us'))
 
 //5. Verify 'GET IN TOUCH' is visible
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/lbl_Get In Touch'))
@@ -57,7 +57,7 @@ WebUI.verifyElementfindTestObject('Object Repository/Automation_Exercise/Contact
 
 //11. Click 'Home' button and verify that landed to home page successfully
 WebUI.click(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/link_Home'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 }
 
 catch(Exception e)

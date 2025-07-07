@@ -28,3 +28,13 @@ import org.openqa.selenium.Keys as Keys
 //8. Click 'View Cart' button
 //9. Verify that product is displayed in cart page with exact quantity
 
+//1. Launch browser
+WebUI.openBrowser('')
+WebUI.maximizeWindow();
+
+//2. Navigate to url 'http://automationexercise.com'
+WebUI.navigateToUrl('http://automationexercise.com')
+
+//3. Verify that home page is visible successfully
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+

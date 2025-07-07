@@ -24,10 +24,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.automationexercise.com/')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4. Click 'Cart' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Cart'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Cart'))
 
 //5. Scroll down to footer
 //def pageHeight = WebUI.executeJavaScript('return document.body.scrollHeight;', [])

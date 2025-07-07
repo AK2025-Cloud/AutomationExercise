@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Contact us</name>
+   <name>button_Contact us</name>
    <tag></tag>
    <elementGuidId>4e53bbb0-3464-4aa9-8a92-0382d8101a46</elementGuidId>
    <selectorCollection>

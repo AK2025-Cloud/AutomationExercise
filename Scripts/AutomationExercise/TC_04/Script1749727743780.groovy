@@ -26,10 +26,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://automationexercise.com/')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4. Click on 'Signup / Login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Signup Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Signup Login'))
 
 //5. Verify 'Login to your account' is visible
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Login_Page/lbl_Login to your account'))

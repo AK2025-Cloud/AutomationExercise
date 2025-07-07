@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Test Cases</name>
+   <name>button_Test Cases</name>
    <tag></tag>
    <elementGuidId>3259f56c-7e07-4365-945c-d6004fa3d6c8</elementGuidId>
    <selectorCollection>

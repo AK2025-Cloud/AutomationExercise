@@ -29,10 +29,10 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.maximizeWindow()
 
 //3 Verify Home Page
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4 Click on 'Signup/ Login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Signup Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Signup Login'))
 
 //6 Enter name and email address
 WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Login_Page/txt_NewUser_name'),
@@ -105,7 +105,7 @@ WebUI.click(findTestObject('Object Repository/Automation_Exercise/Account_Create
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Logged in as Ak Test'))
 
 //17. Click 'Delete Account' button
-//WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Delete Account'))
+//WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Delete Account'))
 
 //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Delete_Account_page/lbl_Account Deleted'))

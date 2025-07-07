@@ -27,10 +27,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://automationexercise.com')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
 
 //4. Click on 'Products' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Products'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Product'))
 
 //5. Verify user is navigated to ALL PRODUCTS page successfully
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Page/lbl_All Products'))
