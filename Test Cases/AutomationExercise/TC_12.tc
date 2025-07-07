@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Products in Cart</description>
+   <name>TC_12</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de6f4288-914d-4f48-ae1c-f0bde89af153</testCaseGuid>
+</TestCaseEntity>

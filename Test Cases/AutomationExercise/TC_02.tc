@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description> Login User with correct email and password</description>
+   <name>TC_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65dafb94-01c3-4f4e-996d-1414ba04811f</testCaseGuid>
+</TestCaseEntity>

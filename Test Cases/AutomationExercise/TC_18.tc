@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View Category Products</description>
+   <name>TC_18</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3d4b3dc4-df9b-4a6a-8762-b8e12254c00d</testCaseGuid>
+</TestCaseEntity>

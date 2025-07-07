@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Subscription in Cart page </description>
+   <name>TC_11</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e639b2b-08ca-43ff-b382-5f5b75e4e2d5</testCaseGuid>
+</TestCaseEntity>

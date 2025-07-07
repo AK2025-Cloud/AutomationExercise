@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Test Cases Page</description>
+   <name>TC_07</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e92de719-fc5d-4d06-8365-b89c92b7997e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add review on product</description>
+   <name>TC_21</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8f8a274-b57a-4512-b256-3c9f18d2e1c7</testCaseGuid>
+</TestCaseEntity>

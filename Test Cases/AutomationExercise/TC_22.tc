@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add to cart from Recommended items</description>
+   <name>TC_22</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3ff8d70-db0a-4c5b-9933-149641ce44e1</testCaseGuid>
+</TestCaseEntity>

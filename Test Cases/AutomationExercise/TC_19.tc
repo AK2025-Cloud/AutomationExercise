@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View &amp; Cart Brand Products</description>
+   <name>TC_19</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a24593e7-f9fd-4014-be00-4713ae083645</testCaseGuid>
+</TestCaseEntity>

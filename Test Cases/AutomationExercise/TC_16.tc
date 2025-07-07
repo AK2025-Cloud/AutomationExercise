@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Place Order: Login before Checkout</description>
+   <name>TC_16</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c9f74634-b3bc-464e-a4b5-6c11a8a4f654</testCaseGuid>
+</TestCaseEntity>
