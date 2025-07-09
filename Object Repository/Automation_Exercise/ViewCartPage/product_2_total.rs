@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_2_in_cart</name>
+   <name>product_2_total</name>
    <tag></tag>
-   <elementGuidId>d107dd26-51aa-4b81-8785-d582ea2d88de</elementGuidId>
+   <elementGuidId>b5352e26-5d7b-43bb-af4e-e7a811b981c9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='product-2']/td[2]</value>
+         <value>//tr[@id='product-2']/td[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#product-2 > td.cart_description</value>
+         <value>#product-2 > td.cart_total</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Men Tshirt Men > Tshirts&quot;i]</value>
+         <value>internal:role=cell[name=&quot;Rs. 400&quot;i] >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>8ccdce79-e84b-4666-9827-debaf38ee6ad</webElementGuid>
+      <webElementGuid>104f5bf8-43b8-4361-860a-65e2807fde37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart_description</value>
-      <webElementGuid>466c66c1-37bf-4e54-8f81-6c3937f372d2</webElementGuid>
+      <value>cart_total</value>
+      <webElementGuid>69721fcd-39b3-4b6a-abe9-0c2e11582614</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,58 +45,65 @@
       <name>text</name>
       <type>Main</type>
       <value>
-								Men Tshirt
-								Men > Tshirts
+								Rs. 400
 							</value>
-      <webElementGuid>41912414-f86f-47a9-b4b3-51ca4cf415f0</webElementGuid>
+      <webElementGuid>f3f21f16-0caf-4809-a1d1-82b6f5641d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_description&quot;]</value>
-      <webElementGuid>47178dfa-69fc-464a-a85c-0ad42dfc087d</webElementGuid>
+      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_total&quot;]</value>
+      <webElementGuid>49d985f5-396d-43b1-a207-3e22a6640692</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='product-2']/td[2]</value>
-      <webElementGuid>23eb9716-b9e0-44ce-b8f0-ab02ce97ead3</webElementGuid>
+      <value>//tr[@id='product-2']/td[5]</value>
+      <webElementGuid>a1b88486-23c7-4854-9baf-1b1ca11ad570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[6]</value>
-      <webElementGuid>75fc4960-72d8-4660-bac3-3e9ee568ecd7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/following::td[3]</value>
+      <webElementGuid>e4416bb9-dba4-4f50-b1fd-4b04eaf6cd34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[9]</value>
-      <webElementGuid>dab20958-a8c7-4ded-a25e-d3942f0ca765</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[9]</value>
+      <webElementGuid>a7ce8e7f-2ffd-43f0-9348-1b4635a51298</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[5]</value>
-      <webElementGuid>6d2af95a-52da-4089-ae4b-1eaed97da29e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[2]</value>
+      <webElementGuid>99f35d4d-8853-4581-8ffe-711b7cdc11b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::td[2]</value>
+      <webElementGuid>137a8fd9-1e25-42f1-92e7-a2183ad8fbf2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[2]</value>
-      <webElementGuid>500b861b-957a-448b-8320-f259583bab73</webElementGuid>
+      <value>//tr[2]/td[5]</value>
+      <webElementGuid>29db3086-5cb4-4fb4-975b-7d5aba28083e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,12 +111,10 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '
-								Men Tshirt
-								Men > Tshirts
+								Rs. 400
 							' or . = '
-								Men Tshirt
-								Men > Tshirts
+								Rs. 400
 							')]</value>
-      <webElementGuid>0248cfe6-0552-4151-8bdc-e8c274af9e6d</webElementGuid>
+      <webElementGuid>9b357dfb-7d67-465b-adac-9b394922353d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

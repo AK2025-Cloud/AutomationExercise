@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_1_quantity</name>
+   <name>u_Register  Login</name>
    <tag></tag>
-   <elementGuidId>f646f60c-0a54-4ef8-a791-57d348939d96</elementGuidId>
+   <elementGuidId>0f315a81-f1f4-4d5d-b938-c177a2b1b789</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[@id='product-1']/td[4]/button</value>
+         <key>CSS</key>
+         <value>u</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.disabled</value>
+         <key>XPATH</key>
+         <value>//div[@id='checkoutModal']/div/div/div[2]/p[2]/a/u</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;Product Image Blue Top Women > Tops Rs. 500 1 Rs. 500 &quot;i] >> internal:role=button</value>
+         <value>internal:role=link[name=&quot;Register / Login&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>27050e9b-36f4-4779-8cc0-1a835d11edb7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>disabled</value>
-      <webElementGuid>e93752a2-71f9-4f31-908b-faead4719a27</webElementGuid>
+      <value>u</value>
+      <webElementGuid>ec7212cc-240e-4d91-abe4-29ceca813818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>f913fecb-06e1-49ab-aae8-7ffd655f1567</webElementGuid>
+      <value>Register / Login</value>
+      <webElementGuid>ef6879d8-2d0d-492e-a5e3-3c5607aec9d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_quantity&quot;]/button[@class=&quot;disabled&quot;]</value>
-      <webElementGuid>b8e9620f-63fc-4726-9044-831a0910fa76</webElementGuid>
+      <value>id(&quot;checkoutModal&quot;)/div[@class=&quot;modal-dialog modal-confirm&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/p[@class=&quot;text-center&quot;]/a[1]/u[1]</value>
+      <webElementGuid>6361fd80-ca9b-48be-b978-b27c0d93fe3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='product-1']/td[4]/button</value>
-      <webElementGuid>62eeb9fb-db35-4cc7-b54c-4ee74f6c5dfb</webElementGuid>
+      <value>//div[@id='checkoutModal']/div/div/div[2]/p[2]/a/u</value>
+      <webElementGuid>e0e801c7-e2fb-426f-81e0-654150ba18f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::button[1]</value>
-      <webElementGuid>bddb8bb0-fdb8-451e-acb8-b69833cb80c5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::u[1]</value>
+      <webElementGuid>d501f983-9e12-46cf-9e0d-f67c72f2a25f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::button[1]</value>
-      <webElementGuid>5d9a8b3b-562e-4be4-a955-f13be2ad552c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::u[1]</value>
+      <webElementGuid>ca729702-4c44-471f-b982-54d9c91ebb26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/preceding::button[1]</value>
-      <webElementGuid>1f378836-d1b0-45be-aff3-e67a1b704e90</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue On Cart'])[1]/preceding::u[1]</value>
+      <webElementGuid>27f641ba-75b8-48e8-91e4-69424cf78b5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::button[2]</value>
-      <webElementGuid>8a275469-07c6-4076-8159-45d6bd118c1e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/preceding::u[1]</value>
+      <webElementGuid>8c394944-e354-4439-8817-94879ca6ed82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>0292a92c-0023-4bcb-9e1c-65209b2e5b6d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Register / Login']/parent::*</value>
+      <webElementGuid>54c3be93-d0e9-4b82-9f21-039eb8a253ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td[4]/button</value>
-      <webElementGuid>1aced6c9-367b-469c-bffc-086901da73d1</webElementGuid>
+      <value>//u</value>
+      <webElementGuid>32ec0b92-d39e-41df-9e11-6f7b38acb944</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '1' or . = '1')]</value>
-      <webElementGuid>6ce52810-19ee-4209-bede-262767327792</webElementGuid>
+      <value>//u[(text() = 'Register / Login' or . = 'Register / Login')]</value>
+      <webElementGuid>ffb7afd5-c8db-4dbb-8e05-a31ed2f5ccb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

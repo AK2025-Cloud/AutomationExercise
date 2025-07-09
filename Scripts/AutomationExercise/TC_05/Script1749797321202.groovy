@@ -27,23 +27,23 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://automationexercise.com/')
 
 //3.Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click on 'Signup / Login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Signup Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Signup Login'))
 
 //5. Verify 'New User Signup!' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Login_Page/lbl_New User Signup'),true)
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/LoginPage/lbl_New User Signup'),true)
 
 //6. Enter name and already registered email address
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Login_Page/txt_NewUser_name'),'AK Test')
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Login_Page/txt_NewUser_email'), 'akokare267@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/LoginPage/txt_NewUser_name'),'AK Test')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/LoginPage/txt_NewUser_email'), 'akokare267@gmail.com')
 
 //7. Click 'Signup' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Login_Page/btn_Signup'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/LoginPage/btn_Signup'))
 
 //8. Verify error 'Email Address already exist!' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Signup_Page/error_msg_Email Address already exist'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/SignupPage/error_msg_Email Address already exist'))
 
 	
 }

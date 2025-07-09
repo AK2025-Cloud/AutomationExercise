@@ -25,16 +25,16 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://automationexercise.com')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click on 'Products' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Product'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Product'))
 
 //5. Verify user is navigated to ALL PRODUCTS page successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Page/lbl_All Products'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductPage/lbl_All Products'))
 
 //6. Enter product name in search input and click search button
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Searched Products'), 'women')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Searched Products'), 'women')
 
 //7. Verify 'SEARCHED PRODUCTS' is visible
 
@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Product_Deta
  WebUI.delay(2)  
 
 // Get list of all product items
-List<WebElement> products = WebUI.findWebElements(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl Searched Women product'), 10)
+List<WebElement> products = WebUI.findWebElements(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl Searched Women product'), 10)
 
 // Verify each product is displayed
 for (WebElement product : products) {

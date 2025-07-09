@@ -24,10 +24,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.automationexercise.com/')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click 'Cart' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Cart'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Cart'))
 
 //5. Scroll down to footer
 //def pageHeight = WebUI.executeJavaScript('return document.body.scrollHeight;', [])
@@ -39,7 +39,7 @@ WebUI.executeJavaScript('window.scrollBy(0,800)', [])
 WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Util/lbl_Subscription'))
 
 //7. Enter email address in input and click arrow button
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/View _Cart/txt_Subscription_susbscribe_email'), 'akokare267@gmail.com')
+WebUI.setText(findTestObject('null'), 'akokare267@gmail.com')
 WebUI.click(findTestObject('Object Repository/Automation_Exercise/Util/btn_Subscription_subscribe'))
 
 //8. Verify success message 'You have been successfully subscribed!' is visible

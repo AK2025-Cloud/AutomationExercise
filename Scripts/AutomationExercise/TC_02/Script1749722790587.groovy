@@ -30,33 +30,33 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.maximizeWindow()
 
 //3 Verify Home Page 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4 Click on 'Signup/ Login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Signup Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Signup Login'))
 
 
 //5. Verify 'Login to your account' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Login_Page/lbl_Login to your account'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/LoginPage/lbl_Login to your account'))
 
 //6. Enter correct email address and password
 
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Login_Page/txt_Login_email_id'), 'akokare267@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/LoginPage/txt_Login_email_id'), 'akokare267@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Login_Page/txt_Login_password'),'Pravin#1234' )
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/LoginPage/txt_Login_password'),'Pravin#1234' )
 
 //7. Click 'login' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Login_Page/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/LoginPage/btn_Login'))
 
 //8. Verify that 'Logged in as username' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/lnk_Logged in as Ak Test'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/lnk_Logged in as Ak Test'))
 
 
 //9. Click 'Delete Account' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Delete Account'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Delete Account'))
 
 //10. Verify that 'ACCOUNT DELETED!' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Delete_Account_page/lbl_Account Deleted'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/DeleteAccountPage/lbl_Account Deleted'))
 }
 
 catch (Exception e)

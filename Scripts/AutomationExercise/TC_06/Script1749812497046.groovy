@@ -27,37 +27,37 @@ WebUI.navigateToUrl('https://automationexercise.com/')
 WebUI.maximizeWindow()
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click on 'Contact Us' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Contact us'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Contact us'))
 
 //5. Verify 'GET IN TOUCH' is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/lbl_Get In Touch'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/lbl_Get In Touch'))
 
 //6. Enter name, email, subject and message
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/txt_name'), 'AK Test')
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/txt_email'), 'akokare267@gmail.com')
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/txt_subject'), 'Test Sample_1')
-WebUI.setText(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/txt_message_box'),'This is a first Sample Test')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/txt_name'), 'AK Test')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/txt_email'), 'akokare267@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/txt_subject'), 'Test Sample_1')
+WebUI.setText(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/txt_message_box'),'This is a first Sample Test')
 
 //7. Upload file 
 String path = "C:/Users/AXKokare/OneDrive - Express Employment Professionals/Desktop/EXP018/General/image (1).png"
-WebUI.uploadFile(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/input_upload_file'),path)
+WebUI.uploadFile(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/input_upload_file'),path)
 
 //8. Click 'Submit' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/btn_submit'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/btn_submit'))
 
 //9. Click OK button
 WebUI.waitForAlert(10)
 WebUI.acceptAlert()
 
 //10. Verify success message 'Success! Your details have been submitted successfully.' is visible
-WebUI.verifyElementfindTestObject('Object Repository/Automation_Exercise/Contact_US Page/msg_Success Your details have been submitted successfully')Visible()
+WebUI.verifyElementfindTestObject('Object Repository/Automation_Exercise/ContactUsPage/msg_Success Your details have been submitted successfully')Visible()
 
 //11. Click 'Home' button and verify that landed to home page successfully
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Contact_US Page/link_Home'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/ContactUsPage/link_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 }
 
 catch(Exception e)

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_Subscription_susbscribe_email</name>
+   <name>input_Card_Number</name>
    <tag></tag>
-   <elementGuidId>74f22aad-02af-499f-8cd6-7896d1e46fe1</elementGuidId>
+   <elementGuidId>0263ee91-e11c-430d-ac06-8d91d01e151e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='susbscribe_email']</value>
+         <key>CSS</key>
+         <value>input[name=&quot;card_number&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#susbscribe_email</value>
+         <key>XPATH</key>
+         <value>//input[@name='card_number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Your email address&quot;i]</value>
+         <value>input[name=&quot;card_number&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,70 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>28e5b05b-2564-4958-9322-6849ec3c92c1</webElementGuid>
+      <webElementGuid>f65be4e7-39f1-4d7a-8591-be9d04d28408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>card_number</value>
+      <webElementGuid>2bbb6d4c-92f8-46f8-bcf9-cc7642e33b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-qa</name>
+      <type>Main</type>
+      <value>card-number</value>
+      <webElementGuid>7e0932b0-18c2-4e4f-a5da-896ebc9094bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control card-number</value>
+      <webElementGuid>26f84d19-e325-4f63-a47a-5e5c5150bb22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>da66b016-f092-4040-8d46-84e886fdc7da</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>susbscribe_email</value>
-      <webElementGuid>7b89cc7f-d66f-4ee5-9b11-af87dc8f9839</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Your email address</value>
-      <webElementGuid>c38d9896-5861-4158-9f2c-23a82c36d08e</webElementGuid>
+      <value>text</value>
+      <webElementGuid>c090b12d-687d-4aeb-b42e-d28865f1e18b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;susbscribe_email&quot;)</value>
-      <webElementGuid>4b6416fb-96fc-4223-a10b-20249b57b53a</webElementGuid>
+      <value>id(&quot;payment-form&quot;)/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-sm-12 form-group card&quot;]/input[@class=&quot;form-control card-number&quot;]</value>
+      <webElementGuid>3d98e43e-c29b-4a6a-bec5-414a84f82444</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='susbscribe_email']</value>
-      <webElementGuid>5a3b5054-fecb-4f30-91ac-15664e1157dd</webElementGuid>
+      <value>//input[@name='card_number']</value>
+      <webElementGuid>93ad3249-f837-429d-95d1-d8a15280a810</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='footer']/div/div/div/div[2]/div/form/input[2]</value>
-      <webElementGuid>6e79776d-bc5c-4566-9d30-68428cfe307d</webElementGuid>
+      <value>//form[@id='payment-form']/div[2]/div/input</value>
+      <webElementGuid>a141a446-1d97-4807-868a-ddce6cf48744</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input[2]</value>
-      <webElementGuid>32384d66-58d5-4c0d-98c6-04adbd0b6a6b</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>fae83e66-1d6a-48a0-a96d-9a768ea3359d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @id = 'susbscribe_email' and @placeholder = 'Your email address']</value>
-      <webElementGuid>0ecb3c77-b0ca-4b07-a66e-d69134b50333</webElementGuid>
+      <value>//input[@name = 'card_number' and @type = 'text']</value>
+      <webElementGuid>89838998-4152-4ff3-8e57-fe7308fed005</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_2_price</name>
+   <name>h2_Review Your Order</name>
    <tag></tag>
-   <elementGuidId>08611bcf-aff5-4b8e-a230-7894269df84d</elementGuidId>
+   <elementGuidId>145a68f4-cc2e-45a3-a65c-1526665fdd39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='product-2']/td[3]</value>
+         <value>//section[@id='cart_items']/div/div[4]/h2</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#product-2 > td.cart_price</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Rs. 400&quot;i] >> nth=0</value>
+         <value>internal:role=heading[name=&quot;Review Your Order&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,93 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>f4632230-a678-40e6-8064-cd2ba412b36d</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>5863913a-7f5e-448d-9e4d-85126086a337</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart_price</value>
-      <webElementGuid>e3f0b644-e49e-4c90-b07d-f5102923242e</webElementGuid>
+      <value>heading</value>
+      <webElementGuid>4a0e1fe6-6f7a-475c-8f43-8511985c50d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-								Rs. 400
-							</value>
-      <webElementGuid>e4dd4a1f-dabc-42d8-9bf6-876dc4a08a6b</webElementGuid>
+      <value>Review Your Order</value>
+      <webElementGuid>69fb7980-f405-45b2-9618-2bcf20bf7c3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_price&quot;]</value>
-      <webElementGuid>f7a6e82a-6745-41c5-97d7-2c138b933d04</webElementGuid>
+      <value>id(&quot;cart_items&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;step-one&quot;]/h2[@class=&quot;heading&quot;]</value>
+      <webElementGuid>3d025b92-876c-4f9e-aab9-71c351c93404</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='product-2']/td[3]</value>
-      <webElementGuid>5ae2fcf8-ce1b-4c10-bc1e-1518fff71312</webElementGuid>
+      <value>//section[@id='cart_items']/div/div[4]/h2</value>
+      <webElementGuid>3cb053d8-7d52-49ba-8310-9a9e705b846b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/following::td[1]</value>
-      <webElementGuid>847fe6d3-fd32-4ca1-bd4c-6ab9ef4b2e21</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[2]/following::h2[1]</value>
+      <webElementGuid>33135352-0037-4e6e-8137-532a4c358585</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[7]</value>
-      <webElementGuid>e6319af8-e7a5-4231-9f82-6f5937adeeed</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item'])[1]/preceding::h2[1]</value>
+      <webElementGuid>edb108b2-46a8-4ab6-9d97-5717ccca636d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[4]</value>
-      <webElementGuid>216eaab9-a62c-40ab-9421-83f616670210</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::h2[1]</value>
+      <webElementGuid>5b477152-d2ba-4368-9629-7db683a34bfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::td[4]</value>
-      <webElementGuid>b5b4feb3-fa92-4fc5-9595-e3262d85844c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Review Your Order']/parent::*</value>
+      <webElementGuid>62e6bcdf-d35f-4144-ac74-ab83c8b152cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[3]</value>
-      <webElementGuid>2190c47f-ce2c-4481-851a-06fe6f10f94d</webElementGuid>
+      <value>//div[4]/h2</value>
+      <webElementGuid>b9f522dd-2779-4849-8fa1-a2087c769e7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '
-								Rs. 400
-							' or . = '
-								Rs. 400
-							')]</value>
-      <webElementGuid>24fbd905-ebba-4a67-a476-55a6f239cfd7</webElementGuid>
+      <value>//h2[(text() = 'Review Your Order' or . = 'Review Your Order')]</value>
+      <webElementGuid>0a236923-30c7-448c-8d74-112990605bf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

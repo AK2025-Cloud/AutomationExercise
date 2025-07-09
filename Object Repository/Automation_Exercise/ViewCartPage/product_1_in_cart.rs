@@ -3,7 +3,7 @@
    <description></description>
    <name>product_1_in_cart</name>
    <tag></tag>
-   <elementGuidId>a226dc52-70cb-4c3b-9543-9ab0e377346b</elementGuidId>
+   <elementGuidId>2de2f70b-1cfa-4a22-adc7-be05c070897b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

@@ -25,10 +25,10 @@ WebUI.maximizeWindow();
 WebUI.navigateToUrl('http://automationexercise.com')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click 'Products' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Product'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Product'))
 
 //5. Hover over first product and click 'Add to cart'
 WebUI.mouseOver(findTestObject)

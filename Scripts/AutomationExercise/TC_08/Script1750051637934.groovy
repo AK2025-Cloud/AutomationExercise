@@ -27,30 +27,30 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://automationexercise.com')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click on 'Products' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Product'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Product'))
 
 //5. Verify user is navigated to ALL PRODUCTS page successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Page/lbl_All Products'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductPage/lbl_All Products'))
 
 //6. The products list is visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Page/lbl_Category'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductPage/lbl_Category'))
 
 //7. Click on 'View Product' of first product
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Product_Page/lnk_View Product'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/ProductPage/lnk_View Product'))
 
 //8. User is landed to product detail page
 WebUI.verifyMatch(WebUI.getUrl(), 'https://automationexercise.com/product_details/1', false)
 
 //9. Verify that detail detail is visible: product name, category, price, availability, condition, brand
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_product_1_Blue Top'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Category Women Tops'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Rs. 500'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Availability_In_Stock'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Condition_New'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Product_Details_Page/lbl_Brand Polo'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_product_1_Blue Top'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Category Women Tops'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Rs. 500'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Availability_In_Stock'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Condition_New'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/ProductDetailsPage/lbl_Brand Polo'))
 
 } 
 catch(Exception e)

@@ -28,10 +28,10 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('http://automationexercise.com')
 
 //3. Verify that home page is visible successfully
-WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Home'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Home'))
 
 //4. Click on 'Test Cases' button
-WebUI.click(findTestObject('Object Repository/Automation_Exercise/Home_Page/button_Test Cases'))
+WebUI.click(findTestObject('Object Repository/Automation_Exercise/HomePage/button_Test Cases'))
 	
 //5. Verify user is navigated to test cases page successfully
 WebUI.verifyMatch(WebUI.getUrl(), 'https://automationexercise.com/test_cases', false)

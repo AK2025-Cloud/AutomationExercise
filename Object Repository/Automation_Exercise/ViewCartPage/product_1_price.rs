@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lbl_Enter Account Information</name>
+   <name>product_1_price</name>
    <tag></tag>
-   <elementGuidId>3be8bb3b-9642-4d6e-b7ba-e233d599af60</elementGuidId>
+   <elementGuidId>2c620656-deac-4b7e-ae3a-812b7e76cf26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='form']/div/div/div/div/h2/b</value>
+         <value>//tr[@id='product-1']/td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>b</value>
+         <value>td.cart_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Enter Account Information&quot;i</value>
+         <value>internal:role=cell[name=&quot;Rs. 500&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,93 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>b</value>
-      <webElementGuid>8658d47f-ecde-43d1-b516-351aa37f7cc1</webElementGuid>
+      <value>td</value>
+      <webElementGuid>abba62bb-691f-4960-a86d-151506a9e53b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cart_price</value>
+      <webElementGuid>5649b1cc-285c-4f39-bfc3-2e66ab865080</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Enter Account Information</value>
-      <webElementGuid>e6cbc2ab-373e-42f3-9349-d938fc4131c0</webElementGuid>
+      <value>
+								Rs. 500
+							</value>
+      <webElementGuid>44c0a298-864b-413e-a8be-0d56cc4968cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/h2[@class=&quot;title text-center&quot;]/b[1]</value>
-      <webElementGuid>af59b118-ee1a-4dd0-a1e1-01f3884bd716</webElementGuid>
+      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_price&quot;]</value>
+      <webElementGuid>a76e2a89-1ade-45c5-b3b4-c19e48b30986</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='form']/div/div/div/div/h2/b</value>
-      <webElementGuid>540a8b82-6650-4465-bf7f-2d52cfa6202e</webElementGuid>
+      <value>//tr[@id='product-1']/td[3]</value>
+      <webElementGuid>d9e52a38-7524-4fa0-8acf-8da85df615c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/following::b[1]</value>
-      <webElementGuid>d556d784-d297-4162-af8d-052a43032ccf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[1]</value>
+      <webElementGuid>0f5bb0ab-ee93-4478-9567-34510bd5f850</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Tutorials'])[1]/following::b[1]</value>
-      <webElementGuid>ba839aac-619a-4698-b83e-909de817c3e6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[4]</value>
+      <webElementGuid>4f20edd0-c856-4e07-863d-e01a0e85fdf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::b[1]</value>
-      <webElementGuid>3644e38c-1da8-46f1-a52e-f1121e7b61be</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/preceding::td[5]</value>
+      <webElementGuid>6d58c40c-50b2-4341-8a46-7eb6d02c5ec4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter Account Information']/parent::*</value>
-      <webElementGuid>95b69095-3a09-48b7-a473-5c2753ff6c5e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[10]</value>
+      <webElementGuid>e0f9b855-984e-438f-af9b-18a6d87a6b6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//b</value>
-      <webElementGuid>e19a3145-b272-4da5-a194-c6da25032542</webElementGuid>
+      <value>//tbody/tr/td[3]</value>
+      <webElementGuid>8d8136aa-d1fa-4d8e-b861-423004e723ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//b[(text() = 'Enter Account Information' or . = 'Enter Account Information')]</value>
-      <webElementGuid>42b03417-450f-48bb-b0c8-1e076678689d</webElementGuid>
+      <value>//td[(text() = '
+								Rs. 500
+							' or . = '
+								Rs. 500
+							')]</value>
+      <webElementGuid>d9b9d24c-a01c-4ea2-bedd-6eb58262136d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

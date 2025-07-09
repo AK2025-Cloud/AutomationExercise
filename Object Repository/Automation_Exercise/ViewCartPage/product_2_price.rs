@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_1_total</name>
+   <name>product_2_price</name>
    <tag></tag>
-   <elementGuidId>173bfadb-8d9c-4100-a1dd-2bc48cfbd0db</elementGuidId>
+   <elementGuidId>722cdcde-ac4d-4780-b356-da56299d741c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='product-1']/td[5]</value>
+         <value>//tr[@id='product-2']/td[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>td.cart_total</value>
+         <value>#product-2 > td.cart_price</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Rs. 500&quot;i] >> nth=1</value>
+         <value>internal:role=cell[name=&quot;Rs. 400&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>62376549-cc7c-464f-aced-b69ee047afae</webElementGuid>
+      <webElementGuid>f4632230-a678-40e6-8064-cd2ba412b36d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cart_total</value>
-      <webElementGuid>a4c6f61f-9498-4984-9fb7-a3906b897207</webElementGuid>
+      <value>cart_price</value>
+      <webElementGuid>e3f0b644-e49e-4c90-b07d-f5102923242e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,65 +45,65 @@
       <name>text</name>
       <type>Main</type>
       <value>
-								Rs. 500
+								Rs. 400
 							</value>
-      <webElementGuid>c77219e6-89fb-4a2c-9a72-ad16d1fbab52</webElementGuid>
+      <webElementGuid>e4dd4a1f-dabc-42d8-9bf6-876dc4a08a6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-1&quot;)/td[@class=&quot;cart_total&quot;]</value>
-      <webElementGuid>72f4ea68-95cf-46ca-b495-3c6689fef224</webElementGuid>
+      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_price&quot;]</value>
+      <webElementGuid>f7a6e82a-6745-41c5-97d7-2c138b933d04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='product-1']/td[5]</value>
-      <webElementGuid>90c63273-60fa-4872-87b4-c28e48deb468</webElementGuid>
+      <value>//tr[@id='product-2']/td[3]</value>
+      <webElementGuid>5ae2fcf8-ce1b-4c10-bc1e-1518fff71312</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[3]</value>
-      <webElementGuid>9987ec63-50b7-4833-81c1-f581e430600a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/following::td[1]</value>
+      <webElementGuid>847fe6d3-fd32-4ca1-bd4c-6ab9ef4b2e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::td[6]</value>
-      <webElementGuid>2d4bff4c-27ef-4de3-8139-fef82bd02d6c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[7]</value>
+      <webElementGuid>e6319af8-e7a5-4231-9f82-6f5937adeeed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/preceding::td[3]</value>
-      <webElementGuid>f7c74940-e040-412d-a872-d30ea45e6df8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[4]</value>
+      <webElementGuid>216eaab9-a62c-40ab-9421-83f616670210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[8]</value>
-      <webElementGuid>2298ac3c-f761-4c20-a84e-6c3b279b0a15</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::td[4]</value>
+      <webElementGuid>b5b4feb3-fa92-4fc5-9595-e3262d85844c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tbody/tr/td[5]</value>
-      <webElementGuid>230dc57f-ad2d-4789-af4a-87edad647b20</webElementGuid>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>2190c47f-ce2c-4481-851a-06fe6f10f94d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,10 +111,10 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '
-								Rs. 500
+								Rs. 400
 							' or . = '
-								Rs. 500
+								Rs. 400
 							')]</value>
-      <webElementGuid>e1818ce3-46de-4a35-bd1f-395c28ad796a</webElementGuid>
+      <webElementGuid>24fbd905-ebba-4a67-a476-55a6f239cfd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

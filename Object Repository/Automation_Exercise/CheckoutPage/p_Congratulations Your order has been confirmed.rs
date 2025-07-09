@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>product_2_total</name>
+   <name>p_Congratulations Your order has been confirmed</name>
    <tag></tag>
-   <elementGuidId>c0ffad02-657c-4465-9b4d-132f7ef8cd2d</elementGuidId>
+   <elementGuidId>9170edc8-21fc-4db0-8ac1-c17c8bc55a03</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//tr[@id='product-2']/td[5]</value>
+         <value>//section[@id='form']/div/div/div/p</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#product-2 > td.cart_total</value>
+         <value>p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Rs. 400&quot;i] >> nth=1</value>
+         <value>internal:text=&quot;Congratulations! Your order has been confirmed!&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,93 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>104f5bf8-43b8-4361-860a-65e2807fde37</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>cart_total</value>
-      <webElementGuid>69721fcd-39b3-4b6a-abe9-0c2e11582614</webElementGuid>
+      <value>p</value>
+      <webElementGuid>3e9a0cde-eb57-437b-9104-fa570384ae65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-								Rs. 400
-							</value>
-      <webElementGuid>f3f21f16-0caf-4809-a1d1-82b6f5641d71</webElementGuid>
+      <value>Congratulations! Your order has been confirmed!</value>
+      <webElementGuid>68ea50eb-294a-4aaf-88e7-03c5f0b7d692</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_total&quot;]</value>
-      <webElementGuid>49d985f5-396d-43b1-a207-3e22a6640692</webElementGuid>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9 col-sm-offset-1&quot;]/p[1]</value>
+      <webElementGuid>9f158cd1-e313-4603-9a01-9265065d1128</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//tr[@id='product-2']/td[5]</value>
-      <webElementGuid>a1b88486-23c7-4854-9baf-1b1ca11ad570</webElementGuid>
+      <value>//section[@id='form']/div/div/div/p</value>
+      <webElementGuid>28d4e460-85c0-48ae-8def-da1f3fa52876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Men Tshirt'])[1]/following::td[3]</value>
-      <webElementGuid>e4416bb9-dba4-4f50-b1fd-4b04eaf6cd34</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Placed!'])[1]/following::p[1]</value>
+      <webElementGuid>747e0843-a56c-4f50-82ad-d8f391620190</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::td[9]</value>
-      <webElementGuid>a7ce8e7f-2ffd-43f0-9348-1b4635a51298</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AK Test'])[1]/following::p[1]</value>
+      <webElementGuid>33e13f66-3350-457c-95d4-fe17b85e13a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::td[2]</value>
-      <webElementGuid>99f35d4d-8853-4581-8ffe-711b7cdc11b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Invoice'])[1]/preceding::p[1]</value>
+      <webElementGuid>0c1d9443-4368-4109-87ae-9ea9b4e02002</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::td[2]</value>
-      <webElementGuid>137a8fd9-1e25-42f1-92e7-a2183ad8fbf2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::p[1]</value>
+      <webElementGuid>e9e90b34-c161-4f65-b1f0-533484ef6b55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Congratulations! Your order has been confirmed!']/parent::*</value>
+      <webElementGuid>c9a8aa75-c37e-48c8-9a36-603f689271f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[2]/td[5]</value>
-      <webElementGuid>29db3086-5cb4-4fb4-975b-7d5aba28083e</webElementGuid>
+      <value>//p</value>
+      <webElementGuid>d10db184-baca-4695-936b-900c1da7cd6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '
-								Rs. 400
-							' or . = '
-								Rs. 400
-							')]</value>
-      <webElementGuid>9b357dfb-7d67-465b-adac-9b394922353d</webElementGuid>
+      <value>//p[(text() = 'Congratulations! Your order has been confirmed!' or . = 'Congratulations! Your order has been confirmed!')]</value>
+      <webElementGuid>05e3fdfc-eb08-4415-b969-c3041ac5dc48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
